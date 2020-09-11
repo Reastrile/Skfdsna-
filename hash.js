@@ -48,3 +48,5 @@ function hash(text) {
 
   return FinishedList.join('');
 }
+
+export { hash };
