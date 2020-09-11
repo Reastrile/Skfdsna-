@@ -26,3 +26,5 @@ function decrypt(text) {
         
   return NewText.join('')
 }
+
+export { decrypt };
