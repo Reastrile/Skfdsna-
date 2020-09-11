@@ -6,10 +6,8 @@
     <button type="button" onclick="getInputValue();">Submit</button>
     
     
-    
+    <script src="./stor.js"></script>
     <script>
-        import {encrypteddisplaytext} from './stor.js'
-      
         function hash(text) {
           var Characters = ["A","B","C","D","E","F","G","H","I","J","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","0","1","2","3","4","5","6","7","8","9","?",">","<",":","}","{","+","_","~","`","!","@","#","$","%","^","&","*","(",")","-","=","[","]",";","'",",",".","/"," "];
           var Text = text.split('');
@@ -20,7 +18,6 @@
               NewList.push(Characters.indexOf(Text[x]));
               x = x + 1;
           }
-
 
           var output = NewList.map(function (x) {return parseInt(x, 10);});
           output = output.join('');
@@ -93,11 +90,8 @@
         return NewText.join('')
       }
         
-        
-        
-        
-        
-
+      
+      
       function getInputValue() {
         var password = "b`O54&axnRxX{nF34XOd},OP,*QG[W4lftYBHLRHsZb9VbU44RB[#aX@*x:tIV/NW%m#G:0AnMD2NXgnI}k!*ZM6;a6h@nQTG{7k[%+DIEhb!jJavE[g"
         var input = document.getElementById("Password").value;
