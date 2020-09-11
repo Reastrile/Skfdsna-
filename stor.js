@@ -1,2 +1,1 @@
-var encrypteddisplaytext = "BDCEHCCCCBFCCICCFCFD";
-export {encrypteddisplaytext};
+export var encrypteddisplaytext = "BDCEHCCCCBFCCICCFCFD";
