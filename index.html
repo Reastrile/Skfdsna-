@@ -7,7 +7,17 @@
     <script src="./stor.js"></script>
     <script src="./decrypt.js"></script>
     <script src="./hash.js"></script>
-    <script src="./buttonpress.js"></script>
+    <script>
+      function getInputValue() {
+	      var input = document.getElementById("Password").value;
+
+	      if (hash(input) == password) {
+		      alert("Correct: ".concat(decrypt(encrypteddisplaytext)));
+	      } else {
+		      alert("Incorrect");
+	      }
+      }
+    </script>
   </body>
 </html>
       
