@@ -1,3 +1,6 @@
+import {decrypt} from './decrypt.js'
+import {hash} from './hash.js'
+
 function getInputValue() {
 	var input = document.getElementById("Password").value;
 
